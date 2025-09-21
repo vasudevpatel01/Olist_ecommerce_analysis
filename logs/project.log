@@ -1,0 +1,108 @@
+2025-09-16 17:42:23,457 - scripts.load_data - INFO - customers table created with 99441 rows
+2025-09-16 17:42:28,087 - scripts.load_data - INFO - orders table created with 99441 rows
+2025-09-16 17:42:33,096 - scripts.load_data - INFO - order_items table created with 112650 rows
+2025-09-16 17:43:04,238 - scripts.load_data - INFO - geolocation table created with 1000163 rows
+2025-09-16 17:43:05,997 - scripts.load_data - INFO - products table created with 32951 rows
+2025-09-16 17:43:06,199 - scripts.load_data - INFO - sellers table created with 3095 rows
+2025-09-16 17:43:09,425 - scripts.load_data - INFO - payments table created with 103886 rows
+2025-09-16 17:43:13,786 - scripts.load_data - INFO - reviews table created with 99224 rows
+2025-09-16 17:43:13,941 - scripts.load_data - INFO - product_category_translation table created with 71 rows
+2025-09-16 17:43:13,950 - __main__ - INFO - All tables created successfully
+2025-09-16 17:43:13,974 - scripts.clean_data - INFO - Database connection established.
+2025-09-16 17:43:14,284 - scripts.clean_data - INFO - order_items: Null rows deleted.
+2025-09-16 17:43:15,623 - scripts.clean_data - INFO - column converted to datetime : order_items
+2025-09-16 17:43:15,895 - scripts.clean_data - INFO - order_items: Invalid numeric values removed.
+2025-09-16 17:43:16,084 - scripts.clean_data - INFO - payments: Null rows deleted.
+2025-09-16 17:43:16,309 - scripts.clean_data - INFO - payments: Invalid payment values removed.
+2025-09-16 17:43:16,566 - scripts.clean_data - INFO - payments: payment_type normalized.
+2025-09-16 17:43:16,769 - scripts.clean_data - INFO - reviews: Null rows deleted.
+2025-09-16 17:43:16,989 - scripts.clean_data - INFO - reviews: Invalid review scores removed.
+2025-09-16 17:43:17,287 - scripts.clean_data - INFO - orders: Null rows deleted.
+2025-09-16 17:43:18,595 - scripts.clean_data - INFO - column convrted to datetime orders
+2025-09-16 17:43:18,896 - scripts.clean_data - INFO - orders: Updated shipped orders with null delivery date to 'canceled'.
+2025-09-16 17:43:19,202 - scripts.clean_data - INFO - customers: Null rows deleted.
+2025-09-16 17:43:19,283 - scripts.clean_data - INFO - products: Null rows deleted.
+2025-09-16 17:43:19,363 - scripts.clean_data - INFO - products: Negative/zero numeric values deleted.
+2025-09-16 17:43:19,433 - scripts.clean_data - INFO - products: Empty name/description rows deleted.
+2025-09-16 17:43:19,539 - scripts.clean_data - INFO - products: product_category_name normalized to lowercase.
+2025-09-16 17:43:19,555 - scripts.clean_data - INFO - sellers: Null rows deleted.
+2025-09-16 17:43:19,571 - scripts.clean_data - INFO - sellers: Columns normalized (city lowercase, state uppercase).
+2025-09-16 17:43:22,324 - scripts.clean_data - INFO - geolocation: Null rows deleted.
+2025-09-16 17:43:24,968 - scripts.clean_data - INFO - geolocation: Invalid latitude/longitude values removed.
+2025-09-16 17:43:24,970 - scripts.clean_data - INFO - product_category_translation: Null rows deleted.
+2025-09-16 17:43:24,970 - scripts.clean_data - INFO - product_category_translation: Columns normalized to lowercase.
+2025-09-16 17:43:25,007 - scripts.clean_data - INFO - Database connection closed.
+2025-09-16 17:43:25,007 - __main__ - INFO - Cleaning completed successfully!
+2025-09-16 17:43:25,016 - __main__ - INFO - Workflow Completed !
+2025-09-20 10:37:13,400 - scripts.load_data - INFO - customers table created with 99441 rows
+2025-09-20 10:37:18,579 - scripts.load_data - INFO - orders table created with 99441 rows
+2025-09-20 10:37:23,645 - scripts.load_data - INFO - order_items table created with 112650 rows
+2025-09-20 10:37:58,666 - scripts.load_data - INFO - geolocation table created with 1000163 rows
+2025-09-20 10:38:01,117 - scripts.load_data - INFO - products table created with 32951 rows
+2025-09-20 10:38:01,465 - scripts.load_data - INFO - sellers table created with 3095 rows
+2025-09-20 10:38:07,440 - scripts.load_data - INFO - payments table created with 103886 rows
+2025-09-20 10:38:14,237 - scripts.load_data - INFO - reviews table created with 99224 rows
+2025-09-20 10:38:14,368 - scripts.load_data - INFO - product_category_translation table created with 71 rows
+2025-09-20 10:38:14,368 - __main__ - INFO - All tables created successfully
+2025-09-20 10:38:14,368 - scripts.clean_data - INFO - Database connection established.
+2025-09-20 10:38:14,685 - scripts.clean_data - INFO - order_items: Null rows deleted.
+2025-09-20 10:38:15,797 - scripts.clean_data - INFO - column converted to datetime : order_items
+2025-09-20 10:38:16,028 - scripts.clean_data - INFO - order_items: Invalid numeric values removed.
+2025-09-20 10:38:16,250 - scripts.clean_data - INFO - payments: Null rows deleted.
+2025-09-20 10:38:16,429 - scripts.clean_data - INFO - payments: Invalid payment values removed.
+2025-09-20 10:38:16,687 - scripts.clean_data - INFO - payments: payment_type normalized.
+2025-09-20 10:38:16,887 - scripts.clean_data - INFO - reviews: Null rows deleted.
+2025-09-20 10:38:17,107 - scripts.clean_data - INFO - reviews: Invalid review scores removed.
+2025-09-20 10:38:17,466 - scripts.clean_data - INFO - orders: Null rows deleted.
+2025-09-20 10:38:18,763 - scripts.clean_data - INFO - column convrted to datetime orders
+2025-09-20 10:38:19,050 - scripts.clean_data - INFO - orders: Updated shipped orders with null delivery date to 'canceled'.
+2025-09-20 10:38:19,362 - scripts.clean_data - INFO - customers: Null rows deleted.
+2025-09-20 10:38:19,467 - scripts.clean_data - INFO - products: Null rows deleted.
+2025-09-20 10:38:19,563 - scripts.clean_data - INFO - products: Negative/zero numeric values deleted.
+2025-09-20 10:38:19,671 - scripts.clean_data - INFO - products: Empty name/description rows deleted.
+2025-09-20 10:38:19,802 - scripts.clean_data - INFO - products: product_category_name normalized to lowercase.
+2025-09-20 10:38:19,802 - scripts.clean_data - INFO - sellers: Null rows deleted.
+2025-09-20 10:38:19,826 - scripts.clean_data - INFO - sellers: Columns normalized (city lowercase, state uppercase).
+2025-09-20 10:38:22,917 - scripts.clean_data - INFO - geolocation: Null rows deleted.
+2025-09-20 10:38:26,199 - scripts.clean_data - INFO - geolocation: Invalid latitude/longitude values removed.
+2025-09-20 10:38:26,201 - scripts.clean_data - INFO - product_category_translation: Null rows deleted.
+2025-09-20 10:38:26,201 - scripts.clean_data - INFO - product_category_translation: Columns normalized to lowercase.
+2025-09-20 10:38:26,257 - scripts.clean_data - INFO - Database connection closed.
+2025-09-20 10:38:26,257 - __main__ - INFO - Cleaning completed successfully!
+2025-09-20 10:38:26,257 - __main__ - INFO - Workflow Completed !
+2025-09-20 18:41:31,830 - scripts.load_data - INFO - customers table created with 99441 rows
+2025-09-20 18:41:37,676 - scripts.load_data - INFO - orders table created with 99441 rows
+2025-09-20 18:41:43,869 - scripts.load_data - INFO - order_items table created with 112650 rows
+2025-09-20 18:42:19,545 - scripts.load_data - INFO - geolocation table created with 1000163 rows
+2025-09-20 18:42:21,924 - scripts.load_data - INFO - products table created with 32951 rows
+2025-09-20 18:42:22,383 - scripts.load_data - INFO - sellers table created with 3095 rows
+2025-09-20 18:42:27,440 - scripts.load_data - INFO - payments table created with 103886 rows
+2025-09-20 18:42:32,952 - scripts.load_data - INFO - reviews table created with 99224 rows
+2025-09-20 18:42:33,136 - scripts.load_data - INFO - product_category_translation table created with 71 rows
+2025-09-20 18:42:33,136 - __main__ - INFO - All tables created successfully
+2025-09-20 18:42:33,148 - scripts.clean_data - INFO - Database connection established.
+2025-09-20 18:42:33,479 - scripts.clean_data - INFO - order_items: Null rows deleted.
+2025-09-20 18:42:34,844 - scripts.clean_data - INFO - column converted to datetime : order_items
+2025-09-20 18:42:35,098 - scripts.clean_data - INFO - order_items: Invalid numeric values removed.
+2025-09-20 18:42:35,308 - scripts.clean_data - INFO - payments: Null rows deleted.
+2025-09-20 18:42:35,499 - scripts.clean_data - INFO - payments: Invalid payment values removed.
+2025-09-20 18:42:35,788 - scripts.clean_data - INFO - payments: payment_type normalized.
+2025-09-20 18:42:35,994 - scripts.clean_data - INFO - reviews: Null rows deleted.
+2025-09-20 18:42:36,201 - scripts.clean_data - INFO - reviews: Invalid review scores removed.
+2025-09-20 18:42:36,495 - scripts.clean_data - INFO - orders: Null rows deleted.
+2025-09-20 18:42:37,863 - scripts.clean_data - INFO - column convrted to datetime orders
+2025-09-20 18:42:38,173 - scripts.clean_data - INFO - orders: Updated shipped orders with null delivery date to 'canceled'.
+2025-09-20 18:42:38,404 - scripts.clean_data - INFO - customers: Null rows deleted.
+2025-09-20 18:42:38,501 - scripts.clean_data - INFO - products: Null rows deleted.
+2025-09-20 18:42:38,590 - scripts.clean_data - INFO - products: Negative/zero numeric values deleted.
+2025-09-20 18:42:38,672 - scripts.clean_data - INFO - products: Empty name/description rows deleted.
+2025-09-20 18:42:38,785 - scripts.clean_data - INFO - products: product_category_name normalized to lowercase.
+2025-09-20 18:42:38,801 - scripts.clean_data - INFO - sellers: Null rows deleted.
+2025-09-20 18:42:38,817 - scripts.clean_data - INFO - sellers: Columns normalized (city lowercase, state uppercase).
+2025-09-20 18:42:40,909 - scripts.clean_data - INFO - geolocation: Null rows deleted.
+2025-09-20 18:42:43,266 - scripts.clean_data - INFO - geolocation: Invalid latitude/longitude values removed.
+2025-09-20 18:42:43,266 - scripts.clean_data - INFO - product_category_translation: Null rows deleted.
+2025-09-20 18:42:43,266 - scripts.clean_data - INFO - product_category_translation: Columns normalized to lowercase.
+2025-09-20 18:42:43,313 - scripts.clean_data - INFO - Database connection closed.
+2025-09-20 18:42:43,313 - __main__ - INFO - Cleaning completed successfully!
+2025-09-20 18:42:43,315 - __main__ - INFO - Workflow Completed !
