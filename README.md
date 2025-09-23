@@ -142,7 +142,7 @@ It was followed by beleza_saude (health & beauty) and informatica_acessorios (co
 Overall, total revenue over two years (2017-18) was ~R$15–15.9M, peaking in Q2 2018 and dipping by Q3 2018.
 
 
-![Seller revenue vs review score.](image-1.png)
+![scatter plot](image.png)
 
 
 Seller Performance: Sellers rated 3.5-4.5 stars accounted for the bulk of orders and revenue, indicating top-rated sellers perform the best.
