@@ -140,6 +140,7 @@ Overall, total revenue over two years (2017-18) was ~R$15–15.9M, peaking in Q2
 
 
 Seller Performance: Sellers rated 3.5-4.5 stars accounted for the bulk of orders and revenue, indicating top-rated sellers perform the best.
+![Sellers revenue distribution based on reviews](image.png)
 
  Sellers with high review scores have the most orders and highest revenue.
 
