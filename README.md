@@ -6,8 +6,7 @@
 This project analyzes the **Olist E-commerce Dataset** to uncover patterns in customer behavior, seller performance, product categories, and overall marketplace dynamics.
 It is built using a **modular pipeline structure** with **data cleaning, loading, and analysis components**, and includes **logging** for tracking each step.
 
-![alt text](image-1.png)
-
+![intro image](image.png)
 
 ---
 
