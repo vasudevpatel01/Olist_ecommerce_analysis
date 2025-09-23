@@ -6,6 +6,9 @@
 This project analyzes the **Olist E-commerce Dataset** to uncover patterns in customer behavior, seller performance, product categories, and overall marketplace dynamics.
 It is built using a **modular pipeline structure** with **data cleaning, loading, and analysis components**, and includes **logging** for tracking each step.
 
+![alt text](image-1.png)
+
+
 ---
 
 ##  Objectives
@@ -87,6 +90,7 @@ olist-ecommerce-analysis/
 
 ##  Insights 
 
+* The total revenue grew from R$6.92M in 2017 to R$8.45M in 2018, reflecting a year-on-year growth of about **21%**.
 * **Credit cards dominate transactions** (\~80% of revenue).
 * **Retention rate is very low** (\~3%) → loyalty programs needed.
 * **High freight costs & long delivery times lead to poor reviews**.
@@ -140,6 +144,7 @@ Overall, total revenue over two years (2017-18) was ~R$15–15.9M, peaking in Q2
 
 
 ![Seller revenue vs review score.](image.png)
+
 
 Seller Performance: Sellers rated 3.5-4.5 stars accounted for the bulk of orders and revenue, indicating top-rated sellers perform the best.
 
@@ -215,7 +220,7 @@ This comprehensive analysis of the Olist dataset uncovered actionable insights: 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/olist-ecommerce-analysis.git
+   git clone https://github.com/vasudevpatel01/olist-ecommerce-analysis.git
    cd olist-ecommerce-analysis
    ```
 
