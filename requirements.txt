@@ -1,0 +1,17 @@
+# Data handling
+pandas
+numpy
+
+# Database connection
+SQLAlchemy
+pymysql
+
+# Data visualization
+matplotlib
+seaborn
+
+# Jupyter Notebook
+jupyter
+notebook
+
+
